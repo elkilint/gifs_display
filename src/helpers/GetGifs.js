@@ -1,3 +1,5 @@
+
+
 export const getGifs = async(category) => {
 
     const url = `https://api.giphy.com/v1/gifs/search?api_key=gsnDLbfNdRmKKdtcVJfkXj9O7nfayurg&q=${encodeURI(category)}&limit=10` //ojo con los backtics
